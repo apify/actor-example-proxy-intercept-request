@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Example of usage of man in the middle proxy component",
   "main": "index.js",
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/apifytech/act-proxy-intercept-request.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,12 +17,11 @@
     "interception"
   ],
   "author": "Jaroslav Hejlek",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "apify": "^0.5.17",
     "bluebird": "^3.5.1",
     "http-mitm-proxy": "^0.6.1",
-    "lodash": "^4.17.5",
     "puppeteer": "^1.2.0"
   },
   "devDependencies": {

@@ -66,7 +66,7 @@ Apify.main(async () => {
       }
     })
 
-    await page.goto('https://google.com/', { waitUntil: 'domcontentloaded', timeout: 15000 });
+    await page.goto('https://www.example.com/', { waitUntil: 'domcontentloaded', timeout: 15000 });
 
     await wait(2000);
 
